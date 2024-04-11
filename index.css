@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    background-image: radial-gradient(red, blue);
+}
+header img {
+    width: 37px;
+    height: 37px;
+    float: left;
+    z-index: 1;
+    opacity: 1;
+}
+p {
+    color: white;
+}
+header h1{
+    background-image: linear-gradient(to left, #D33715, #167B9C);
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+.pasta:hover, .paella:hover, .karri:hover {
+    border: 6px solid rgb(0, 128, 64);
+    transition: 0.5s ease-out;
+    width: 400px;
+    height: 250px;
+}
+.pasta, .paella, .karri {
+    display: block;
+    margin: auto;
+}
+.spa, .paell, .kar {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, rgb(0, 128, 64), #D33715);
+    border-image-slice: 1;
+}
+nav a{
+    display: inline-flex;
+    text-decoration: none;
+    border: 2px solid #6C30B9;
+    border-radius: 10px;
+    padding: 3px;
+    justify-content: space-around;
+    margin-left: 250px;
+    color: white;
+    background-color: #6C30B9;
+    box-shadow: 2px 3px 5px 0.5px black;
+}
+.pages {
+    display: inline-flex;
+    text-decoration: none;
+    border: 2px solid #c57171;
+    border-radius: 10px;
+    padding: 3px;
+    justify-content: space-around;
+    margin-left: 460px;
+    color: #c57171;
+    box-shadow: 2px 3px 5px 0.5px black;
+    background-color: antiquewhite;
+}
+.pagesgg {
+    display: inline-flex;
+    text-decoration: none;
+    border: 2px solid #c57171;
+    border-radius: 10px;
+    padding: 3px;
+    justify-content: space-around;
+    margin-left: 300px;
+    color: #c57171;
+    box-shadow: 2px 3px 5px 0.5px black;
+    background-color: antiquewhite;
+}
+footer {
+    background-image: linear-gradient(to left, #3243D8, #BE1CE7, #E5B713);
+}
+footer p {
+    text-align: left;
+    font-size: 16;
+    color: white;
+    margin-left: 20px;
+}
+.social {
+    float: left;
+}
+footer img {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+footer img:hover {
+    width: 50px;
+    height: 50px;
+    transition: 0.5s ease-out;
+}
